@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial, roboto;
+}
+body {
+    background-color: #ece9e99d;
+    margin: auto;
+    max-width: 1200px;
+}
+header {
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+    /* max-width: 800px; */
+    width: 100%;
+    border: gray 3px solid;
+    border-radius: 10px;
+}
+header h1 {
+    margin: 1rem;
+    padding-top: 20px;
+}
+.add-todo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.add-todo input{
+    /* width: 325px; */
+    width: 100%;
+    margin: 1rem 10px 1rem 10px;
+    border: yellow 3px solid;
+    border-radius: 2px;
+    padding: 10px;
+    font-size: large;
+}
+.add-todo button {
+    margin: 1rem 13px 1rem 0;
+    border: yellowgreen 3px solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
+    color: black;
+    background-color: yellow;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.filter {
+    margin: 1rem;
+}
+.delete {
+    margin: 1rem;
+}
+.filter-button{
+    border: yellowgreen 3px solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
+    color: black;
+    background-color: yellow;
+}
+.delete-all{
+    padding: 10px;
+    border: red 3px solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
+    color: black;
+    background-color: rgba(253, 169, 169, 0.952);
+}
+.table table {
+    text-align: center;
+    width: 100%;
+}
+thead {
+    background-color: gray;
+}
+thead th {
+    padding: 10px;
+}
+tbody td {
+    text-align: center;
+    padding: 5px 10px;
+    width: 25%;
+}
+tbody button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
+    color: black;
+    background-color: yellow;
+}
+tbody button:nth-child(3) {
+    background-color: #fd9b9b;
+}
+tbody button:nth-child(2) {
+    background-color: #1eff00;
+    width: 50px;
+}
+.alert-fail, .alert-success {
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #ffa5a5;
+}
+.alert-success {
+    background-color: #20ff3d;
+}
+#edit-button {
+    display: none;
+}
